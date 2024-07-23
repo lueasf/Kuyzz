@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- pour que le nav utilise la dernière maj --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuyzz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" /> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+</head>
+
+<body>
+    <h1>
+        <span>Quizz</span> de Culture G
+    </h1>
+
+    <div class="global-container">
+        <form class="quiz-form"> <!--pas de action car on s'occupe de données côté front-->
+
+                <div class="question-block">
+                    <h4>En quelle année Lucie C. est-elle devenue millionnaire ?</h4>
+                        <div>
+                            <input type="radio" id="2026" name="q0" value="a" checked>
+                            <label for="2026">2026</label> 
+                        </div>
+                        <div>
+                            <input type="radio" id="2027" name="q0" value="b" >
+                            <label for="2027">2027</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="2028" name="q0" value="c" >
+                            <label for="2028">2028</label>
+                        </div>
+                </div>
+
+
+            
+                <div class="question-block">
+                    <h4>Qui est l'auteur de la bande-son du film Le Compte de Monte Christo ?</h4>
+                        <div>
+                            <input type="radio" id="Zimmer" name="q1" value="a" checked>
+                            <label for="Zimmer">Hans Zimmer</label> <!--label en 2eme pour avoir le texte à droite-->
+                        </div>
+                        <div>
+                            <input type="radio" id="Rebotier" name="q1" value="b" >
+                            <label for="Rebotier">Jérome Rebotier</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Holst" name="q1" value="c" >
+                            <label for="Holst">Gustav Holst</label>
+                        </div>
+                </div>
+
+                <div class="question-block">
+                    <h4>Qui est l'acteur principal du film Le Compte de Monte Christo ?</h4>
+                        <div>
+                            <input type="radio" id="Ross" name="q2" value="a" checked>
+                            <label for="Ross">Bob Ross</label> 
+                        </div>
+                        <div>
+                            <input type="radio" id="Pitt" name="q2" value="b" >
+                            <label for="Pitt">Brad Pitt</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Niney" name="q2" value="c" >
+                            <label for="Niney">Pierre Niney</label>
+                        </div>
+                </div>
+
+                <div class="question-block">
+                    <h4>Quel est le budget du film Le Compte de Monte Chisto ?</h4>
+                        <div>
+                            <input type="radio" id="25m" name="q3" value="a" checked>
+                            <label for="25m">25 millions</label> 
+                        </div>
+                        <div>
+                            <input type="radio" id="34m" name="q3" value="b" >
+                            <label for="34m">34 millions</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="42m" name="q3" value="c" >
+                            <label for="42m">42 millions</label>
+                        </div>
+                </div>
+
+                <button type="submit">VALIDER ✅</button>
+        </form>
+
+        <div class="results">
+            <h2>Cliquez sur <span>valider</span> pour voir les <span>résultats.</span></h2>
+            <p class="mark"></p>
+            <p class="help"></p>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
