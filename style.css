@@ -114,6 +114,8 @@ form button:hover {
 }
 
 .mark {
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 25px;
     font-weight: 400;
     text-align: center;
