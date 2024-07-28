@@ -120,3 +120,9 @@ form button:hover {
     font-weight: 400;
     text-align: center;
 }
+
+footer {
+    margin-top: auto; /* Pousse le footer en bas de la page */
+    text-align: center; /* Centre le contenu du footer horizontalement */
+    padding: 20px; /* Ajoute un peu de padding pour le style */
+}
